@@ -1,16 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 心理カウンセリングT.A. エゴグラムサービス開発要件定義
 
-Currently, two official plugins are available:
+react.jsで折れ線グラフ作成前の要件。 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+例えば、CPという項目が選択肢を選んでフォーム送信したら何点と点数にして表示したいです。
 
-## React Compiler
+項目: CP項目 質問内容は 人の言葉をさえぎって自分の考えを述べることがありますか？
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+⚪︎ は2点、△は1点、×は0点と決まっています。
 
-## Expanding the ESLint configuration
+この項目を複数選択して合計点を表示する
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+質問とラジオボタンが⚪︎△×が設置されています。
+
+この要件のreact.jsコンポーネントを作成する 状態管理はreact標準の機能を使用する
